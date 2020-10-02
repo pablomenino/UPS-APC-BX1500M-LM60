@@ -26,6 +26,7 @@ cp nut/upsmon.conf /etc/nut/
 cp nut/upssched.conf /etc/nut/
 
 cp scripts/nut-notify.sh  /usr/local/bin/nut-notify.sh
+chmod +x /usr/local/bin/nut-notify.sh
 
 systemctl start nut-driver.service
 systemctl start nut-monitor.service

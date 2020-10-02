@@ -13,6 +13,7 @@
 #----------------------------------------------------------------------------------------
 # Install UPS-APC-BX1500M-LM60
 
+# Change URL and Token
 curl -X POST "https://localhost/message?token=XXXXXXX" \
  -F "title=UPS Notify" \
  -F "message=$NOTIFYTYPE" \

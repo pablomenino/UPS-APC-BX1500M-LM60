@@ -19,6 +19,8 @@ Edit nut/upsd.userd to add custom users.
 
 Edit nut/upsmon.conf to config local instance of NUT, shutdown command and notify command.
 
+Tested in Raspbian.
+
 ## Install
 
 Install scrip:
